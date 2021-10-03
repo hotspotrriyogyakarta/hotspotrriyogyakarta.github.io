@@ -1,0 +1,396 @@
+﻿<!doctype html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Axoma">
+    <meta name="keywords" content="Axoma">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Hotspot RRI Yogyakarta</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="static\plugin\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+    <link href="static\plugin\font-awesome\css\fontawesome-all.min.css" rel="stylesheet">
+    <link href="static\plugin\et-line\style.css" rel="stylesheet">
+    <link href="static\plugin\themify-icons\themify-icons.css" rel="stylesheet">
+    <link href="static\plugin\owl-carousel\css\owl.carousel.min.css" rel="stylesheet">
+    <link href="static\plugin\magnific\magnific-popup.css" rel="stylesheet">
+    <link href="static\css\style.css" rel="stylesheet">
+    <link href="static\css\color\default.css" rel="stylesheet" id="color_theme">
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="98">
+  <!-- 
+  ======================================================
+  created     : Lalat Merah
+  situs       : wp.icmp.my.id
+  whatsapp    : 082-120-215-248
+  ig          : @alpuketmerah
+  ====================================================== 
+  -->
+    <div id="loading">
+      <div class="load-circle"><span class="one"></span></div>
+    </div>
+    <header>
+      <nav class="navbar header-nav navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="light-logo" src="static\img\logo-light.svg" title="" alt="">
+            <img class="dark-logo" src="static\img\logo.svg" title="" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar">
+            <ul class="navbar-nav ml-auto align-items-center">
+              <li><a class="nav-link" href="login.html">Home</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#service">Service</a></li>
+              <li><a class="nav-link" href="#price">Programma</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+              <li><a class="nav-link" href="logout.html">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    </header>
+    <main>
+      <section id="home" class="home-banner-03 theme-bg bg-effect-box">
+        <div class="bg-effect bg-cover" style="background-image: url(static/img/banner-effect-6.svg);"></div>
+        <div id="particles_effect" class="particles-effect"></div>
+        <div class="container">
+          <div class="row align-items-center justify-content-center p-100px-tb sm-p-60px-b">
+            <div class="col-lg-5 md-p-30px-tb">
+              <h5 class="white-color">RRI Yogyakarta</h5>
+              <h1 class="font-alt white-color">Login Hotspot</h1>
+              <p class="white-color-light">Login Hotspot</p>
+              
+              <div class="card-block py-lg px-md" style="color:aliceblue">
+                <table class="table">
+                  <tbody class="align-l">
+                    <tr>
+                      <td>Username</td>
+                      <td>$(username)</td>
+                    </tr>
+                    <tr>
+                      <td>IP Address</td>
+                      <td>$(ip)</td>
+                    </tr>
+                    <tr>
+                      <td>MAC Address</td>
+                      <td>$(mac)</td>
+                    </tr>
+                    $(if session-time-left)
+                    <tr>
+                      <td>Connected / left</td>
+                      <td>$(uptime) / $(session-time-left)</td>
+                    </tr>
+                    $(else)
+                    <tr>
+                      <td>Connected</td>
+                      <td>$(uptime)</td>
+                    </tr>
+                    $(endif)
+                    <tr>
+                      <td>Download / Upload</td>
+                      <td>$(bytes-out-nice) / $(bytes-in-nice)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div> 
+            <div class="col-lg-7 text-center p-50px-l">
+              <img src="static\img\home-banner-7.svg" title="" alt="">
+            </div>
+          </div> 
+        </div>
+      </section>
+      <section id="about" class="section">
+        <div class="container">
+          <div class="row m-45px-b sm-m-25px-b">
+            <div class="col-lg-5 col-md-10">
+              <div class="section-title-01">
+                <h2 class="dark-color font-alt">Tentang RRI Yogyakarta</h2>
+              </div>
+            </div>
+          </div>
+          
+            <div class="row">
+              <div class="col-lg-4 col-md-6 m-15px-tb">
+                <div class="feature-box-02 text-center">
+                  <div class="icon theme-after">
+                    <i class="ti-world theme-bg"></i>
+                  </div>
+                  <div class="feature-content">
+                    <h5 class="font-alt dark-color">LPP RRI</h5>
+                    <p style="text-align:justify;">LPP RRI adalah Lembaga Penyiaran Publik yang menyelenggarakan kegiatan penyiaran radio, bersifat independen, netral, tidak komersial, dan berfungsi memberikan layanan untuk kepentingan masyarakat</p>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col-lg-4 col-md-6 m-15px-tb">
+                <div class="feature-box-02 text-center">
+                  <div class="icon theme-after">
+                    <i class="ti-check-box theme-bg"></i>
+                  </div>
+                  <div class="feature-content">
+                    <h5 class="font-alt dark-color">Tugas Pokok</h5>
+                    <p style="text-align:justify;"> LPP RRI mempunyai tugas memberikan pelayanan informasi, pendidikan, hiburan yang sehat, kontrol dan perekat sosial, serta melestarikan budaya bangsa untuk kepentingan seluruh lapisan masyarakat melalui penyelenggaraan penyiaran radio yang menjangkau seluruh NKRI </p>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col-lg-4 col-md-6 m-15px-tb">
+                <div class="feature-box-02 text-center">
+                  <div class="icon theme-after">
+                    <i class="ti-time theme-bg"></i>
+                  </div>
+                  <div class="feature-content">
+                    <h5 class="font-alt dark-color">Jam Layanan Operasional</h5>
+                    <p>
+                    Senin - Kamis   : 08.00 - 16.30 WIB
+                    <br>
+                    Jumat           : 07.30 - 16.30 WIB
+                    <br>
+                    Sabtu - Minggu  : Closed
+                    </p>
+                  </div>
+                </div>
+              </div> 
+
+              </div> 
+            </div> 
+        </div>
+      </section>
+      <section id="service" class="section">
+        <div class="container">
+          <div class="row m-45px-b sm-m-25px-b">
+            <div class="col-lg-5 col-md-10">
+              <div class="section-title-01">
+                <h2 class="dark-color font-alt">Layanan RRI Yogyakarta</h2>
+              </div>
+            </div>
+          </div>
+          
+            <div class="row">
+              <div class="col-lg-4 col-md-6 m-15px-tb">
+                <div class="feature-box-02 text-center">
+                  <div>
+                  <img src="static\img\Survey.png" width='300' height='300' frameborder='0'>
+                  </div>
+                  <a class="link yellow-bg-after" href="https://forms.gle/eVJNWupH82zPL3HP8"><i class="yellow-bg ti-arrow-right"></i></a>
+                </div>
+              </div> 
+
+              <div class="col-lg-4 col-md-6 m-15px-tb">
+                <div class="feature-box-02 text-center">
+                  <div>
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="300" height="300" type="text/html" src="https://www.youtube.com/embed/MnhvAfYIetA?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="https://flickrembedslideshow.com">Flickr embed</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode.com/en/</a></small></div><div><small><a href="https://embedgooglemaps.com">Google maps embed</a></small></div><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://embedtwitterwidget.com">Embed twitter feed</a></small></div></iframe>
+                  </div>
+                  <a class="link yellow-bg-after" href="https://www.youtube.com/channel/UCXnzOqOSDNUfN0F08Mw-Exw"><i class="yellow-bg ti-arrow-right"></i></a>
+                </div>
+              </div> 
+
+              <div class="col-lg-4 col-md-6 m-15px-tb">
+                <div class="feature-box-02 text-center">
+                  <div>
+                  <iframe src="https://rri.co.id/yogyakarta" height="300px" width="300px"></iframe>
+                  </div>
+                  <a class="link yellow-bg-after" href="https://rri.co.id/yogyakarta"><i class="yellow-bg ti-arrow-right"></i></a>
+                </div>
+              </div> 
+
+              </div> 
+            </div> 
+        </div>
+      </section>
+
+      <section id="price" class="section shapes-section gray-bg">
+        <div class="container">
+            <div class="row m-45px-b sm-m-25px-b">
+                <div class="col-lg-5 col-md-10">
+                  <div class="section-title-01">
+                    <h2 class="dark-color font-alt">Programa</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="col-md-6 col-lg-4 m-15px-tb">
+                <div class="price-table-01">
+                  <div class="price-header">
+                    <h4 class="price-title font-alt dark-color">FM 91.1 MHz</h4>
+                    <p>Pusat siaran pemberdayaan masyarakat</p>
+                    <div class="price-value theme-color">PRO 1</div>
+                  </div>
+                  <div>
+                  <img src="static\img\pro1.svg" alt="">
+                  </div>
+                  <div class="price-footer">
+                    <a href="https://www.facebook.com/prosatufm.jogja.9"><img src="static\img\facebook.png" width="50" height="50" alt=""></a>
+                    <a href="https://twitter.com/rripro1jogja?lang=en"><img src="static\img\twitter.png" width="50" height="50" alt=""></a>
+                    <a href="https://www.instagram.com/rripro1jogja/?hl=en"><img src="static\img\instagram.png" width="50" height="50" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 m-15px-tb">
+                <div class="price-table-01">
+                  <div class="price-header">
+                    <h4 class="price-title font-alt dark-color">FM 102.5 MHz</h4>
+                    <p>Pusat siaran kreatifitas anak muda</p>
+                    <div class="price-value theme-color">PRO 2</div>
+                  </div>
+                  <div>
+                  <img src="static\img\pro2.svg" alt="">
+                  </div>
+                  <div class="price-footer">
+                    <a href="https://id-id.facebook.com/rri.yogyakarta"><img src="static\img\facebook.png" width="50" height="50" alt=""></a>
+                    <a href="https://twitter.com/rripro2jogja?lang=en"><img src="static\img\twitter.png" width="50" height="50" alt=""></a>
+                    <a href="https://www.instagram.com/rripro2jogja/?hl=en"><img src="static\img\instagram.png" width="50" height="50" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 m-15px-tb">
+                <div class="price-table-01">
+                  <div class="price-header">
+                    <h4 class="price-title font-alt dark-color">FM 106.6 MHz / AM 1107 KHz</h4>
+                    <p>Pusat siaran budaya dan pendidikan</p>
+                    <div class="price-value theme-color">PRO 4</div>
+                  </div>
+                  <div>
+                  <img src="static\img\pro4.svg" alt="">
+                  </div>
+                  <div class="price-footer">
+                    <a href="https://www.facebook.com/PRO4-RRI-Yogyakarta-219270838404587/"><img src="static\img\facebook.png" width="50" height="50" alt=""></a>
+                    <a href="https://twitter.com/rripro4jogja?lang=en"><img src="static\img\twitter.png" width="50" height="50" alt=""></a>
+                    <a href="https://www.instagram.com/rripro4jogja/"><img src="static\img\instagram.png" width="50" height="50" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          
+
+        </div> 
+        <div class="shapes-box">
+          <span data-parallax='{"x": 150, "y": -20, "rotateZ":500}'>
+              <img src="static\img\fl-shape-1.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": 250, "y": 150, "rotateZ":500}'>
+              <img src="static\img\fl-shape-2.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": -180, "y": 80, "rotateY":2000}'>
+              <img src="static\img\fl-shape-3.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": -20, "y": 180}'>
+              <img src="static\img\fl-shape-4.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": 300, "y": 70}'>
+              <img src="static\img\fl-shape-5.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": 250, "y": 180, "rotateZ":1500}'>
+              <img src="static\img\fl-shape-6.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": 180, "y": 10, "rotateZ":2000}'>
+              <img src="static\img\fl-shape-7.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": 60, "y": -100}'>
+              <img src="static\img\fl-shape-9.png" title="" alt="">
+          </span>
+          <span data-parallax='{"x": -30, "y": 150, "rotateZ":1500}'>
+              <img src="static\img\fl-shape-10.png" title="" alt="">
+          </span>
+      </div>
+      </section>
+
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="row m-45px-b sm-m-25px-b">
+            <div class="col-lg-5 col-md-10">
+              <div class="section-title-01">
+                <h2 class="dark-color font-alt">Hubungi Kami</h2>
+              </div>
+            </div>
+          </div>
+
+<div class="row justify-content-center">
+            <div class="col-lg-8 md-m-30px-b">
+              <div class="contact-form">
+                  <h4 class="dark-color font-alt m-30px-b">Find me on map</h4>
+                  <form class="contactform" method="post">
+                          <img src="static\img\map.png" alt="" class="card-img" style="width: 300%;">
+                  </form>
+              </div>
+            </div> 
+            <div class="col-lg-4">
+              <div class="contact-info">
+                  <i class="theme-color ti-location-pin"></i>
+                  <h6 class="dark-color font-alt"> Alamat</h6>
+                  <p>Jl. Achmad Jazuli No.4, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224</p>
+              </div>
+              <div class="contact-info">
+                <i class="theme-color ti-mobile"></i>
+                <h6 class="dark-color font-alt">Telepon</h6>
+                <p>(0274) 512785</p>
+              </div>
+              <div class="contact-info">
+                  <i class="theme-color ti-email"></i>
+                  <h6 class="dark-color font-alt">Email</h6>
+                  <p>rrijogjaofficial@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          
+        </div> 
+      </section>
+
+    </main>
+    <footer class="footer footer-dark">
+      <div class="footer-copy">
+        <div class="row">
+          <div class="col-12">
+            <p>LPP RRI Yogyakarta</p>
+          </div>
+        </div> 
+      </div>
+    </footer>
+    
+    <script src="static\js\jquery-3.2.1.min.js"></script>
+    <script src="static\js\jquery-migrate-3.0.0.min.js"></script>
+    <script src="static\plugin\appear\jquery.appear.js"></script>
+    <script src="static\plugin\bootstrap\js\popper.min.js"></script>
+    <script src="static\plugin\bootstrap\js\bootstrap.js"></script>
+    <script src="static\plugin\particles\particles.min.js"></script>
+    <script src="static\plugin\particles\particles-app.js"></script>
+    <script src="static\js\jquery.parallax-scroll.js"></script>
+    <script src="static\js\custom.js"></script>
+
+    $(if chap-id)
+    <script type="text/javascript" src="md5.js"></script>
+    <script type="text/javascript">
+        $('#loginForm').submit(function () {
+            var password = $('#inputPassword');
+            password.val(hexMD5('$(chap-id)' + password.val() + '$(chap-challenge)'));
+        });
+    </script>
+    $(endif)
+    <script>
+      $("#menu-toggle").click(function (e) {
+          e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+    <script type="text/javascript">
+    <!--
+      document.login.username.focus();
+    //-->
+    </script>
+
+  </body>
+</html>
